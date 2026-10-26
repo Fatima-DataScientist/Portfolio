@@ -1,0 +1,154 @@
+@media (max-width: 1000px) {
+    .portfolio { min-height: 100vh; }
+    .top-text { top: 45px; left: 6%; font-size: 15px; }
+
+    .title, .outline-title {
+        top: 50%;
+        left: 45%;
+        width: 100%;
+        font-size: clamp(80px, 13vw, 125px);
+        line-height: 0.85;
+        letter-spacing: -54px;
+        white-space: nowrap;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+
+    .person-wrapper {
+        width: min(420px, 45vw);
+        height: 70vh;
+        left: 50%;
+        bottom: 10%;
+        transform: translateX(-50%);
+    }
+
+    .pixel-effect { width: 280px; height: 150px; bottom: -5px; }
+    .pixel-effect span { width: 3px; height: 3px; }
+    .name { left: 6%; bottom: 45px; font-size: 14px; }
+    .website { right: 6%; bottom: 45px; font-size: 14px; }
+}
+
+@media (max-width: 768px) {
+    .portfolio { width: 100%; min-height: 100svh; overflow: hidden; }
+    .top-text { top: 32px; left: 5%; font-size: 13px; letter-spacing: -0.2px; }
+
+    .title, .outline-title {
+        top: 48%;
+        left: 43%;
+        width: 100%;
+        font-size: clamp(58px, 12vw, 91px);
+        line-height: 0.85;
+        letter-spacing: -50px;
+        white-space: nowrap;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+
+    .title span, .outline-title span {
+        display: inline-block;
+        white-space: pre;
+        will-change: transform;
+    }
+
+    .person-wrapper {
+        width: 78vw;
+        max-width: 380px;
+        height: 65vh;
+        left: 50%;
+        bottom: 8%;
+        transform: translateX(-50%);
+        z-index: 50;
+    }
+
+    .person {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center bottom;
+    }
+
+    .pixel-effect { width: 65vw; max-width: 300px; height: 125px; bottom: -5px; }
+    .pixel-effect span { width: 2px; height: 2px; }
+    .name { left: 5%; bottom: 30px; font-size: 12px; }
+    .website { right: 5%; bottom: 30px; font-size: 12px; }
+
+    .education-section { padding: 70px 5% 96px; }
+    .education-timeline::before { left: 104px; }
+    .education-item { grid-template-columns: 104px 1fr; min-height: 150px; }
+    .education-years { padding-right: 18px; font-size: 10px; }
+    .education-detail { padding-left: 30px; }
+    .experience-section { padding: 70px 5% 96px; }
+    .experience-entry { grid-template-columns: 1fr; }
+    .experience-meta { padding: 24px 0 16px; border-right: 0; }
+    .experience-content { padding: 18px 0 34px; }
+    .skills-section, .tools-section { padding: 70px 5% 96px; }
+    .skills-grid { grid-template-columns: 1fr; }
+    .skill-card { min-height: 220px; }
+    .skill-icon { margin-bottom: 42px; }
+    .tools-section { padding-top: 0; }
+    .tools-heading { display: block; }
+    .tools-grid { grid-template-columns: repeat(3, 1fr); }
+    .tool-item { min-height: 118px; }
+    .projects-section { padding: 70px 5% 96px; }
+    .projects-grid { grid-template-columns: 1fr; }
+    .project-card { min-height: 290px; }
+    .img-grid { grid-template-columns: 1fr; gap: 30px; }
+    .project-preview { width: 100%; }
+}
+
+@media (max-width: 480px) {
+    .portfolio { min-height: 100svh; overflow: hidden; }
+    .top-text { top: 25px; left: 5%; font-size: 11px; }
+
+    .title, .outline-title {
+        top: 47%;
+        left: 50%;
+        width: 100%;
+        font-size: clamp(42px, 10.5vw, 65px);
+        line-height: 0.85;
+        letter-spacing: -2px;
+        white-space: nowrap;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+
+    .title span, .outline-title span {
+        display: inline-block;
+        white-space: pre;
+        will-change: transform;
+    }
+
+    .person-wrapper {
+        width: 88vw;
+        max-width: 350px;
+        height: 60vh;
+        left: 50%;
+        bottom: 7%;
+        transform: translateX(-50%);
+    }
+
+    .pixel-effect { width: 72vw; max-width: 270px; height: 105px; }
+    .pixel-effect span { width: 2px; height: 2px; }
+    .name { left: 5%; bottom: 25px; font-size: 10px; }
+    .website { right: 5%; bottom: 25px; font-size: 10px; }
+}
+
+@media (max-width: 360px) {
+    .top-text { font-size: 10px; top: 22px; }
+
+    .title, .outline-title {
+        top: 46%;
+        left: 50%;
+        width: 100%;
+        font-size: 10vw;
+        letter-spacing: -1.5px;
+        line-height: 0.85;
+        white-space: nowrap;
+        transform: translate(-50%, -50%);
+    }
+
+    .title span, .outline-title span { display: inline-block; will-change: transform; }
+    .person-wrapper { width: 92vw; height: 57vh; bottom: 8%; left: 50%; }
+    .pixel-effect { width: 75vw; height: 95px; }
+    .name, .website { font-size: 9px; bottom: 20px; }
+}

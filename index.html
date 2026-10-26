@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fatima Tu Zahra | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <section class="portfolio">
+
+        <!-- Top left text -->
+        <div class="top-text">
+            Creative Portfolio
+        </div>
+
+       <nav class="top-nav">
+            <ul>
+                <li><a href="#about">about me</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#experience">work experience</a></li>
+                <li><a href="#contact">contact me</a></li>
+            </ul>
+        </nav>
+
+        <!-- Giant Portfolio text -->
+        <h1 class="title">
+            PORTFOLIO
+        </h1>
+
+        <!-- Person -->
+        <div class="person-wrapper">
+
+            <img
+                class="person"
+                src="my pic.png"
+                alt="Fatima Tu Zahra"
+            >
+
+            <!-- Pixel dissolve effect -->
+            <div class="pixel-effect">
+
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom left -->
+        <div class="name">
+            Fatima Tu Zahra
+        </div>
+
+        <!-- Bottom right -->
+        <div class="website">
+            www.yourportfolio.com
+        </div>
+
+    </section>
+
+        <!-- ABOUT ME SECTION -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <h2 class="about-title">About Me</h2>
+            <p class="about-text">
+                I am Fatima Tu Zahra, a passionate Creative Developer & UI/UX Designer dedicated to crafting visual experiences that seamlessly blend art with modern code. My approach merges minimalist aesthetics, intentional typography, and fluid micro-interactions to create memorable digital interfaces.
+            </p>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="education-section" aria-labelledby="education-title">
+        <div class="education-heading">
+            <p class="section-kicker">01 / foundation</p>
+            <h2 id="education-title">Education</h2>
+            <p>Curiosity, code, and a foundation in data-driven problem solving.</p>
+        </div>
+
+        <div class="education-timeline">
+            <article class="education-item">
+                <p class="education-years">2023 — 2027</p>
+                <div class="education-detail">
+                    <span class="education-dot" aria-hidden="true"></span>
+                    <h3>BS Data Science</h3>
+                    <p>PUCIT, University of the Punjab</p>
+                    <span class="education-status">In progress</span>
+                </div>
+            </article>
+            <article class="education-item">
+                <p class="education-years">2021 — 2023</p>
+                <div class="education-detail">
+                    <span class="education-dot" aria-hidden="true"></span>
+                    <h3>Intermediate in ICS</h3>
+                    <p>Punjab Group of Colleges, Dunyapur</p>
+                </div>
+            </article>
+            <article class="education-item">
+                <p class="education-years">2019 — 2021</p>
+                <div class="education-detail">
+                    <span class="education-dot" aria-hidden="true"></span>
+                    <h3>Matriculation</h3>
+                    <p>Dunyapur Public School, Dunyapur</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="experience-section" aria-labelledby="experience-title">
+        <div class="experience-heading">
+            <p class="section-kicker">02 / in practice</p>
+            <h2 id="experience-title">Experience</h2>
+            <p>Building responsive, high-performance digital products where design and engineering meet.</p>
+        </div>
+
+        <article class="experience-entry">
+            <div class="experience-meta">
+                <p>Feb 2026 — Aug 2026</p>
+                <span>Lahore, Pakistan</span>
+            </div>
+            <div class="experience-content">
+                <p class="experience-role">AI Web Developer</p>
+                <h3>Develpify Studios</h3>
+                <p class="experience-summary">Developed full-stack and AI-integrated web interfaces for client and internal projects, combining polished frontend experiences with secure backend systems.</p>
+                <ul class="experience-points">
+                    <li>Created mobile-first pages with responsive CSS, custom animations, and clean DOM interactions.</li>
+                    <li>Built secure backend services with middleware, authentication, and optimized MySQL queries.</li>
+                    <li>Delivered high-performance interfaces designed for usability, accessibility, and scale.</li>
+                </ul>
+            </div>
+        </article>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills-section" aria-labelledby="skills-title">
+        <div class="skills-heading">
+            <p class="section-kicker">03 / capabilities</p>
+            <h2 id="skills-title">Skills</h2>
+            <p>A blend of visual craft, frontend precision, and dependable full-stack engineering.</p>
+        </div>
+
+        <div class="skills-grid">
+            <article class="skill-card">
+                <i class="devicon-html5-plain skill-icon" aria-hidden="true"></i>
+                <h3>Frontend Development</h3>
+                <p>HTML5 · CSS3 · JavaScript · Blade · Tailwind CSS · Responsive Design</p>
+            </article>
+            <article class="skill-card">
+                <i class="devicon-threejs-original skill-icon" aria-hidden="true"></i>
+                <h3>Creative Interaction</h3>
+                <p>GSAP · Three.js · WebGL · Motion Design · Interactive UI/UX</p>
+            </article>
+            <article class="skill-card">
+                <i class="devicon-laravel-original skill-icon" aria-hidden="true"></i>
+                <h3>Backend &amp; AI</h3>
+                <p>PHP · Laravel · MySQL · OpenAI API · RBAC · Authentication</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- TOOLS SECTION -->
+    <section class="tools-section" aria-labelledby="tools-title">
+        <div class="tools-heading">
+            <p class="section-kicker">04 / toolkit</p>
+            <h2 id="tools-title">Tools I Use</h2>
+        </div>
+
+        <div class="tools-grid">
+            <div class="tool-item"><i class="devicon-html5-plain" aria-hidden="true"></i><span>HTML5</span></div>
+            <div class="tool-item"><i class="devicon-css3-plain" aria-hidden="true"></i><span>CSS3</span></div>
+            <div class="tool-item"><i class="devicon-javascript-plain" aria-hidden="true"></i><span>JavaScript</span></div>
+            <div class="tool-item"><i class="devicon-tailwindcss-original" aria-hidden="true"></i><span>Tailwind</span></div>
+            <div class="tool-item"><span class="tool-gsap" aria-hidden="true">GSAP</span><span>GSAP</span></div>
+            <div class="tool-item"><i class="devicon-threejs-original" aria-hidden="true"></i><span>Three.js</span></div>
+            <div class="tool-item"><i class="devicon-php-plain" aria-hidden="true"></i><span>PHP</span></div>
+            <div class="tool-item"><i class="devicon-laravel-original" aria-hidden="true"></i><span>Laravel</span></div>
+            <div class="tool-item"><i class="devicon-mysql-original" aria-hidden="true"></i><span>MySQL</span></div>
+            <div class="tool-item"><i class="devicon-figma-plain" aria-hidden="true"></i><span>Figma</span></div>
+            <div class="tool-item"><i class="devicon-git-plain" aria-hidden="true"></i><span>Git</span></div>
+            <div class="tool-item"><i class="devicon-github-original" aria-hidden="true"></i><span>GitHub</span></div>
+            <div class="tool-item"><i class="devicon-vscode-plain" aria-hidden="true"></i><span>VS Code</span></div>
+            <div class="tool-item"><i class="devicon-vercel-original" aria-hidden="true"></i><span>Vercel</span></div>
+            <div class="tool-item"><i class="devicon-jquery-plain" aria-hidden="true"></i><span>jQuery</span></div>
+        </div>
+    </section>
+
+    <!-- SELECTED WORK SECTION -->
+    <section id="projects" class="projects-section" aria-labelledby="projects-title">
+        <div class="img-grid">
+        <div class="projects-heading">
+            <p class="section-kicker">selected work</p>
+            <h2 id="projects-title">My Work</h2>
+            <h3 class="projects-name">01. Salo / Design Replica</h3>
+            <p>A curated collection of web experiences spanning e-commerce, immersive 3D interactions, AI-powered applications,
+                and motion-led design. From dynamic animations and interactive storytelling to responsive interfaces and 
+                full-stack solutions, each project reflects a blend of creativity, functionality, and modern web technologies.
+                Built to deliver engaging digital experiences with a strong focus on performance, usability, and visual impact.</p>
+        </div>
+
+        <a class="project-preview" href="https://salo-website-alpha.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open the Salo website project">
+            <img src="salo-project.png" alt="Salo website project preview">
+            <span>View project <span aria-hidden="true">↗</span></span>
+        </a>
+</div>
+
+<div class="img-grid">
+
+    <div class="projects-heading">
+            <h3 class="projects-name">02. FIND Real Estate</h3>
+            <p>A multi-page real estate website built for buyers, sellers, renters and agents. The 
+                landing page opens with a layered sky, cloud and fog hero with a house masked inside 
+                the brand name, then guides visitors through a clear three-step journey, service pages, 
+                client testimonials and a market-insights blog. Designed as a light, atmospheric
+                 experience with a strong focus on storytelling, responsive layouts and smooth,
+                  immersive visuals.</p>
+        </div>
+
+        <a class="project-preview" href="https://realestateprojectwebsite.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open the Salo website project">
+            <img src="real-estate.png" alt="real estate website project preview">
+            <span>View project <span aria-hidden="true">↗</span></span>
+        </a>
+
+        </div>
+
+
+
+        
+<div class="img-grid">
+
+    <div class="projects-heading">
+            <h3 class="projects-name">03. Leo Cussen: Legal Education Redesign</h3>
+            <p>A replica of the Leo Cussen Centre for Law website, built as a design study of a professional legal education platform. 
+                It includes a mega-menu for Practical Legal Training, Continuing Professional Development
+                 and Short Courses, an intake finder by state, animated statistics, a testimonial 
+                 slider and a newsletter sign-up. The focus is clean, trustworthy layout, clear 
+                 information hierarchy and smooth, responsive interactions.</p>
+        </div>
+
+        <a class="project-preview" href="law firm: https://lawfirm-theta-sepia.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open the Salo website project">
+            <img src="law-firm.png" alt="law-firm estate website project preview">
+            <span>View project <span aria-hidden="true">↗</span></span>
+        </a>
+
+        </div>
+
+
+
+        
+<div class="img-grid">
+
+    <div class="projects-heading">
+            <h3 class="projects-name">04. Noir Atelier: Cold Brew Experience</h3>
+            <p>A dark, cinematic landing page for a fictional cold brew coffee atelier. It opens with an animated preloader 
+                and a scroll-led hero, then moves through the brand story, the slow-extraction process 
+                and a curated flavour menu. Built around moody typography, rich black tones and smooth 
+                scroll-based motion to give a small coffee brand a premium, atmospheric identity.</p>
+        </div>
+
+        <a class="project-preview" href="https://fatima-datascientist.github.io/Noir-Atelier-coffee-shop/" target="_blank" rel="noopener noreferrer" aria-label="Open the Salo website project">
+            <img src="coffee-shop.png" alt="coffee shop website project preview">
+            <span>View project <span aria-hidden="true">↗</span></span>
+        </a>
+
+        </div>
+
+
+
+        
+<div class="img-grid">
+
+    <div class="projects-heading">
+            <h3 class="projects-name">05. Develpify Studios</h3>
+            <p>The brand website for Develpify, an interactive web experience built for creators and developer communities.
+                 It opens with an animated loading counter and a drag-to-explore hero, then introduces the studio’s focus on 
+                 high-performance layouts, immersive visuals and community hubs. Designed with bold typography and motion-led interactions, it gives the brand a distinctive, high-energy digital identity.</p>
+        </div>
+
+        <a class="project-preview" href="https://develpify.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open the Salo website project">
+            <img src="Develpify.png" alt="develpify website project preview">
+            <span>View project <span aria-hidden="true">↗</span></span>
+        </a>
+
+        </div>
+
+        
+        
+        
+<div class="img-grid">
+
+    <div class="projects-heading">
+            <h3 class="projects-name">06. Modus Projects Redesign</h3>
+            <p>A multi-page website for Modus Projects, a Dutch interior finishing specialist serving real estate developers and contractors. The site pairs a scroll-driven image sequence with a clean, structured layout, covering services (sanitary, tiles, kitchens, floors), a three-pillar value proposition, a featured projects carousel and dedicated About and Contact pages. Built to communicate reliability and clarity for a professional B2B audience.</p>
+        </div>
+
+        <a class="project-preview" href="https://modus-fawn.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open the Salo website project">
+            <img src="modus.png" alt="modus website project preview">
+            <span>View project <span aria-hidden="true">↗</span></span>
+        </a>
+
+        </div>
+
+
+        
+
+
+        
+    </section>
+
+        <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+        <div class="contact-heading">
+            <p class="section-kicker">05 / get in touch</p>
+            <h2 id="contact-title">Contact Me</h2>
+            <p>Have a project in mind or just want to say hello? I'd love to hear from you.</p>
+        </div>
+
+        <div class="contact-grid">
+            <a class="contact-card" href="mailto:fatimatuzahra.official01@gmail.com">
+                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <path d="M3 7l9 6 9-6"></path>
+                </svg>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">fatimatuzahra.official01@gmail.com</span>
+            </a>
+
+            <a class="contact-card" href="tel:+923461794429">
+                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path>
+                </svg>
+                <span class="contact-label">Phone</span>
+                <span class="contact-value">+92 346 1794429</span>
+            </a>
+
+            <a class="contact-card" href="https://www.linkedin.com/in/fatima-tu-zahra355/" target="_blank" rel="noopener noreferrer">
+                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">fatima-tu-zahra355 <span aria-hidden="true">↗</span></span>
+            </a>
+        </div>
+
+        <p class="contact-footer">© 2026 Fatima Tu Zahra</p>
+    </section>
+
+<script src="portfolio.js"></script>
+</body>
+</html>
